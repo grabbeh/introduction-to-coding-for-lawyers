@@ -63,7 +63,7 @@ For example here a CSS rule which makes the color of the text red and the backgr
 }
 ```
 
-The `width` and `height` of elements can also be defined using CSS. Try creating some coloured blocks in JSBin.
+The `width` and `height` of elements can also be defined using CSS (different units can be used but go with `px` initially. Try creating some coloured blocks in JSBin. 
 
-Other important rules in CSS are `margin` and `padding`. If you have a <div> element then the margin defines the spacing around the outside of the element, and padding defines the spacing inside the element. Margin and padding are important because they can be used to create space between different elements to help a site be visually appealing. You don't want everything crammed into a small space.
+Other important rules in CSS are `margin` and `padding`. If you have a `<div>` element then the margin defines the spacing around the outside of the element, and padding defines the spacing inside the element. Margin and padding are important because they can be used to create space between different elements to help a site be visually appealing. You don't want everything crammed into a small space.
 
