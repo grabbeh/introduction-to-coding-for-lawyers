@@ -9,12 +9,12 @@ components to give structure to a site and also to tell a browser how to display
 
 Here are some HTML tags:
 
-- <div> (short for division - a section of your site)
-- <h1> through to <h6> - these are header elements used to give prominence to more titles and similar
-- <p> - short for paragraph
-- <button> 
-- <a> (this is used to tell the browser you're providing a link whether to a third party site or a link within your site)
-- <li> (this is short for list item - your list items would then be surrounding by either <ul> (unordered list) or <ol> (ordered list) tags)
+- `<div>` (short for division - a section of your site)
+- `<h1>` through to <h6> - these are header elements used to give prominence to more titles and similar
+- `<p>` - short for paragraph
+- `<button>` 
+- `<a>` (this is used to tell the browser you're providing a link whether to a third party site or a link within your site)
+- `<li>` (this is short for list item - your list items would then be surrounding by either `<ul>` (unordered list) or `<ol>` (ordered list) tags)
 
 As you can see each tag is enclosed with < >. Reading HTML should give the reader an indication of the intention of whoever
 wrote the code. A browser reading HTML will apply certain basic styles to give effect to the user's intention. For example a <button> will look
@@ -22,8 +22,8 @@ like a button, an <a> will be highlighted to make it clear it's a link, or a lis
 
 Let's have a play with some basic html elements. Go [https://jsbin.com/?html,output](here). 
 
-One important thing to remember is that with HTML tags will always have an opening tag (<div>) and a closing tag of the same kind (</div). Your content 
-then goes in between the tags. For example: <p>This is a paragraph of text</p>. Note the backslash in the closing tag also. 
+One important thing to remember is that with HTML tags will always have an opening tag (`<div>`) and a closing tag of the same kind (`</div`). Your content 
+then goes in between the tags. For example: `<p>This is a paragraph of text</p>`. Note the backslash in the closing tag also. 
 
 With HTML elements you can have a parent - child structure so that you have a series of elements enclosed within other elements. For example:
 
@@ -65,7 +65,5 @@ For example here a CSS rule which makes the color of the text red and the backgr
 
 The `width` and `height` of elements can also be defined using CSS. Try creating some coloured blocks in JSBin.
 
-Other important rules in CSS are `margin` and `padding`. If you have a <div> element then the margin defines the spacing around the outside of the element, and padding defines
-the spacing inside the element. Margin and padding are important because they can be used to create space between different elements to help a site be visually appealing. You don't
-everything crammed into a small space.
+Other important rules in CSS are `margin` and `padding`. If you have a <div> element then the margin defines the spacing around the outside of the element, and padding defines the spacing inside the element. Margin and padding are important because they can be used to create space between different elements to help a site be visually appealing. You don't want everything crammed into a small space.
 
