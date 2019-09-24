@@ -72,6 +72,7 @@ Here's a CSS class that should be applied as an ID:
 #unique {
  font-family: Segoe UI;
 }
+```
 
 Here's an example of applying the above CSS class to a HTML element:
 
