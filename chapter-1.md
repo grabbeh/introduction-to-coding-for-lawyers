@@ -10,7 +10,7 @@ components to give structure to a site and also to tell a browser how to display
 Here are some HTML tags:
 
 - `<div>` (short for division - a section of your site)
-- `<h1>` through to <h6> - these are header elements used to give prominence to more titles and similar
+- `<h1>` through to `<h6>` - these are header elements used to give prominence to more titles and similar
 - `<p>` - short for paragraph
 - `<button>` 
 - `<a>` (this is used to tell the browser you're providing a link whether to a third party site or a link within your site)
