@@ -4,7 +4,7 @@ Web pages at their most basic are comprised of HTML.
 
 # What is HTML I hear you ask?
 
-HTML (short for hypertext markup language) was invented in 1990. It is used as the bones of any website and provides a number of different elements (also called tags) to give structure to a site and also to tell a browser how to display certain elements used in your site.
+HTML (short for hypertext markup language) was invented in 1990 by Tim Berners Lee. It is used as the bones of any website and provides a number of different elements (also called tags) to give structure to a site and also to tell a browser how to display certain elements used in your site.
 
 Here are some HTML tags:
 
@@ -16,7 +16,7 @@ Here are some HTML tags:
 - `<li>` (this is short for list item - your list items would then be surrounding by either `<ul>` (unordered list) or `<ol>` (ordered list) tags)
 
 As you can see each tag is enclosed with < >. Reading HTML should give the reader an indication of the intention of whoever
-wrote the code. A browser reading HTML will apply certain basic styles to give effect to the user's intention. For example a `<button>` will look like a button, an `<a>` will be highlighted to make it clear it's a link, or a list item will have a bullet point.
+wrote the code. A browser reading HTML will also apply certain basic styles to give effect to the user's intention. For example a `<button>` will look like a button, an `<a>` will be highlighted to make it clear it's a link, or a list item will have a bullet point.
 
 Let's have a play with some basic html elements. Go [https://jsbin.com/?html,output](here). 
 
@@ -53,7 +53,7 @@ Go back to JSBin and click the CSS button. Writing CSS requires a specific forma
 }
 ```
 
-For example here a CSS class which makes the color of the text red and the background black:
+For example here a CSS class which makes the color of any text in your html red and the background black:
 
 ```
 .appearance {
@@ -62,11 +62,20 @@ For example here a CSS class which makes the color of the text red and the backg
 }
 ```
 
-The `width` and `height` of elements can also be defined using CSS (different units can be used but go with `px` initially. 
+The `width` and `height` of elements can also be defined using CSS (different units can be used but go with `px` (pixels) initially. 
 
-Once you've created some relevant classes you need to apply them to the HTML. You do this through by giving an id or a class to a HTML element, that corresponds to the CSS rule you created:
+Once you've created some relevant classes you need to apply them to the HTML. You do this through by giving an id or a class to a HTML element, that corresponds to the CSS rule you created. The difference between IDs and classes is that the former should be unique so only used once, and the latter can be repeated.
 
-`<div class='appearance'>Content</div>`
+Here's a CSS class that should be applied as an ID:
+
+```
+#unique {
+ font-family: Segoe UI;
+}
+
+Here's an example of applying the above CSS class to a HTML element:
+
+`<div id='unique' class='appearance'>Content</div>`
 
 Try creating some coloured blocks in JSBin by applying a class with `height`, `width` and `background` attributes! 
 
