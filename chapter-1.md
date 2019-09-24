@@ -80,5 +80,5 @@ Other important rules in CSS are `margin` and `padding`. If you have a `<div>` e
 
 You don't want everything crammed into a small space. Some elements like `<p>` and `header` elements have spacing built in also.
 
-Try adding some content inside your coloured blocks and adding padding and margin rules to some of your classes.
+Try adding some text content inside your coloured blocks and adding padding and margin rules to some of your classes. Text content can be styled using attributes like `font-weight`, `font-size` and `font-style`.
 
