@@ -4,13 +4,12 @@ Web pages at their most basic are comprised of HTML.
 
 # What is HTML I hear you ask?
 
-HTML (short for hypertext markup language) was invented in 1990. It is used as the bones of any website and provides a number of different 
-components to give structure to a site and also to tell a browser how to display certain elements of your site.
+HTML (short for hypertext markup language) was invented in 1990. It is used as the bones of any website and provides a number of different elements (also called tags) to give structure to a site and also to tell a browser how to display certain elements used in your site.
 
 Here are some HTML tags:
 
 - `<div>` (short for division - a section of your site)
-- `<h1>` through to `<h6>` - these are header elements used to give prominence to more titles and similar
+- `<h1>` through to `<h6>` - these are header elements used to give prominence to certain text
 - `<p>` - short for paragraph
 - `<button>` 
 - `<a>` (this is used to tell the browser you're providing a link whether to a third party site or a link within your site)
@@ -71,7 +70,9 @@ Once you've created some relevant classes you need to apply them to the HTML. Yo
 
 Try creating some coloured blocks in JSBin by applying a class with `height`, `width` and `background` attributes! 
 
-Other important rules in CSS are `margin` and `padding`. If you have a `<div>` element then the margin defines the spacing around the outside of the element, and padding defines the spacing inside the element. Margin and padding are important because they can be used to create space between different elements to help a site be visually appealing. You don't want everything crammed into a small space.
+Other important rules in CSS are `margin` and `padding`. If you have a `<div>` element then the margin defines the spacing around the outside of the element, and padding defines the spacing inside the element. Margin and padding are important because they can be used to create space between different elements to help a site be visually appealing. 
+
+You don't want everything crammed into a small space. Some elements like `<p>` and `header` elements have spacing built in also.
 
 Try adding some content inside your coloured blocks and adding padding and margin rules to some of your classes.
 
