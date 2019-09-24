@@ -17,8 +17,7 @@ Here are some HTML tags:
 - `<li>` (this is short for list item - your list items would then be surrounding by either `<ul>` (unordered list) or `<ol>` (ordered list) tags)
 
 As you can see each tag is enclosed with < >. Reading HTML should give the reader an indication of the intention of whoever
-wrote the code. A browser reading HTML will apply certain basic styles to give effect to the user's intention. For example a <button> will look
-like a button, an <a> will be highlighted to make it clear it's a link, or a list item will have a bullet point.
+wrote the code. A browser reading HTML will apply certain basic styles to give effect to the user's intention. For example a `<button>` will look like a button, an `<a>` will be highlighted to make it clear it's a link, or a list item will have a bullet point.
 
 Let's have a play with some basic html elements. Go [https://jsbin.com/?html,output](here). 
 
@@ -55,7 +54,7 @@ Go back to JSBin and click the CSS button. Writing CSS requires a specific forma
 }
 ```
 
-For example here a CSS rule which makes the color of the text red and the background black:
+For example here a CSS class which makes the color of the text red and the background black:
 
 ```
 .appearance {
@@ -64,7 +63,15 @@ For example here a CSS rule which makes the color of the text red and the backgr
 }
 ```
 
-The `width` and `height` of elements can also be defined using CSS (different units can be used but go with `px` initially. Try creating some coloured blocks in JSBin. 
+The `width` and `height` of elements can also be defined using CSS (different units can be used but go with `px` initially. 
+
+Once you've created some relevant classes you need to apply them to the HTML. You do this through by giving an id or a class to a HTML element, that corresponds to the CSS rule you created:
+
+`<div class='appearance'>Content</div>`
+
+Try creating some coloured blocks in JSBin by applying a class with `height`, `width` and `background` attributes! 
 
 Other important rules in CSS are `margin` and `padding`. If you have a `<div>` element then the margin defines the spacing around the outside of the element, and padding defines the spacing inside the element. Margin and padding are important because they can be used to create space between different elements to help a site be visually appealing. You don't want everything crammed into a small space.
+
+Try adding some content inside your coloured blocks and adding padding and margin rules to some of your classes.
 
