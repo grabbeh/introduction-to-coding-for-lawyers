@@ -22,16 +22,17 @@ like a button, an <a> will be highlighted to make it clear it's a link, or a lis
 
 Let's have a play with some basic html elements. Go [https://jsbin.com/?html,output](here). 
 
-One important thing to remember is that with HTML tags will always have an opening tag (`<div>`) and a closing tag of the same kind (`</div`). Your content 
+One important thing to remember is that HTML tags will always have an opening tag (`<div>`) and a closing tag of the same kind (`</div`). Your content 
 then goes in between the tags. For example: `<p>This is a paragraph of text</p>`. Note the backslash in the closing tag also. 
 
 With HTML elements you can have a parent - child structure so that you have a series of elements enclosed within other elements. For example:
 
-```<div>
-      <h1>Title</h1>
-      <p>I'm a paragraph</p>
-      <p>I'm also a paragraph</p>
-   </div>
+```
+<div>
+   <h1>Title</h1>
+   <p>I'm a paragraph</p>
+   <p>I'm also a paragraph</p>
+</div>
 ```
 
 HTML will generally stack like blocks, one on top of another so you have a vertical structure rather than horizontal.
