@@ -1,10 +1,6 @@
-# The web
+# How to build a website
 
-Web pages at their most basic are comprised of HTML.
-
-# What is HTML I hear you ask?
-
-HTML (short for hypertext markup language) was invented in 1990 by Tim Berners Lee. It is used as the bones of any website and provides a number of different elements (also called tags) to give structure to a site and also to tell a browser how to display certain elements used in your site.
+Web pages at their most basic are comprised of HTML. HTML (short for hypertext markup language) was invented in 1990 by Tim Berners Lee. It is used as the bones of any website and provides a number of different elements (also called tags) to give structure to a site and also to tell a browser how to display certain elements used in your site.
 
 Here are some HTML tags:
 
