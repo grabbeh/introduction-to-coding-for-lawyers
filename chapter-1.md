@@ -39,7 +39,7 @@ HTML will generally stack like blocks, one on top of another so you have a verti
 
 # CSS
 
-Things would get pretty boring if all we could use were HTML elements. This is where CSS (or cascading style sheets). The word cascading is used 
+Things would get pretty boring if all we could use were HTML elements. This is where CSS (or cascading style sheets) comes in. The word cascading is used 
 between if more than one style is applied to an element, there's an order of precedence applied to ensure consistency in terms of which style is applied.
 
 CSS is intended to give power to users to style html and is meant to ensure separation of presentation (CSS) and content.
