@@ -90,7 +90,6 @@ Try adding some text content inside your coloured blocks and adding padding and 
 
 Hopefully you've got a good idea of the basics of HTML and CSS. However most modern websites use something called JavaScript to make their sites interactive. 
 
-# JavaScript
 
 
 
