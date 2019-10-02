@@ -1,3 +1,7 @@
+# Introduction
+
+This short session aims to introduce you to two foundational elements of websites: HTML and CSS. By the end of this session you should be able to put together a basic website consisting of HTML elements and apply some styling to it through CSS.
+
 # How to build a website
 
 Web pages at their most basic are comprised of HTML. HTML (short for hypertext markup language) was invented in 1990 by Tim Berners Lee. It is used as the bones of any website and provides a number of different elements (also called tags) to give structure to a site and also to tell a browser how to display certain elements used in your site.
